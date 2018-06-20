@@ -1,0 +1,45 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">Inicio</a>
+  <a href="Chamada.html">Chamada</a>
+  <a href="Calendario.html">Anotacoes</a>
+  <a class="active" href="form.html">Fale Conosco</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Procurar.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<center>
+<form id="form1" name="form1" method="post" action="send.php">
+  <label>Nome:
+  <input name="nome" type="text" id="nome" />
+  </label>
+  <p>
+    <label>E-mail:
+    <input name="email" type="text" id="email" />
+    </label>
+  </p>
+  <p>
+    <label>Observacoes:<br />
+    <textarea name="obs" cols="50" rows="10" id="obs"></textarea>
+    </label>
+  </p>
+  <p>
+    <label>
+    <input type="submit" name="Submit" value="Enviar" />
+    </label>
+  </p>
+  <p><font face="Verdana"><font size="2"><a href="http://www.firedw.com.br"><font size="1">Trabalho professor Julio</font></a></font></font></p>
+</form>
+</center>
+</body>
+</html>
