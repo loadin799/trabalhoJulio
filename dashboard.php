@@ -71,7 +71,7 @@
                         </li>
                         <li>
                             <a href="form.html">
-                                <i class="far fa-check-square"></i>Formularios</a>
+                                <i class="far fa-check-square"></i>Tickets</a>
                         </li>
                     
                      
@@ -147,7 +147,7 @@
                         </li>
                         <li>
                             <a href="form.html">
-                                <i class="far fa-check-square"></i>Formularios</a>
+                                <i class="far fa-check-square"></i>Tickets</a>
                         </li>
                         
                      
